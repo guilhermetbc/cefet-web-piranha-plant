@@ -1,8 +1,9 @@
 body{
 	background-image: url("../imagens/fundo.png");
 	background-repeat: repeat;
-	max-width: 80%;
+	max-width: 70%;
 	margin: auto;
+	font-family: Arial;
 }
 
 q{
@@ -11,6 +12,7 @@ q{
 
 blockquote{
 	text-align: justify;
+	font-style: italic;
 }
 
 em{
@@ -35,6 +37,18 @@ h2{
 }
 
 p{
-	font-family: Arial;
 	text-align: justify;
+}
+
+table{
+	margin: auto;
+	width: 600px;
+    border: 2px solid silver;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+	height: 50px;
+	border: 2px solid silver;
 }
